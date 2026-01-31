@@ -35,16 +35,16 @@ class NewsView extends StatelessWidget {
             );
           },
         ),
-        Positioned(
-          bottom: 16,
-          left: 16,
-          child: FloatingActionButton(
-            onPressed: () {
-              newsBloc.tes();
-            },
-            child: const Icon(Icons.bug_report),
-          ),
-        ),
+        // Positioned(
+        //   bottom: 16,
+        //   left: 16,
+        //   child: FloatingActionButton(
+        //     onPressed: () {
+        //       newsBloc.tes();
+        //     },
+        //     child: const Icon(Icons.bug_report),
+        //   ),
+        // ),
       ],
     );
   }
