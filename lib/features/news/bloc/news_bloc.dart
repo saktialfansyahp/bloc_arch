@@ -17,7 +17,7 @@ class NewsBloc extends Cubit<NewsState> {
         emit(NewsLoaded(news));
       }
     } catch (e) {
-      emit(NewsError(e.toString()));
+      emit(NewsError('Tidak dapat memuat berita. Periksa koneksi internet.'));
     }
   }
 
