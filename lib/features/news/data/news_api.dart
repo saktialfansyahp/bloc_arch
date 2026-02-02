@@ -14,7 +14,7 @@ class NewsApiService {
   }) async {
     final uri = Uri.parse(
       '$_baseUrl/'
-      'everything?q=tesla&from=2025-12-31&sortBy=publishedAt'
+      'everything?q=apple&from=2026-02-01&to=2026-02-01&sortBy=popularity'
       '&apiKey=$_apiKey',
     );
 
