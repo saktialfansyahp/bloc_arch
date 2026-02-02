@@ -2,6 +2,8 @@ import 'package:bloc/bloc.dart';
 import 'package:bloc_projects/features/news/data/news_repository.dart';
 import 'package:bloc_projects/features/news/state/news_state.dart';
 
+// TODO: create handle error based on status code
+
 class NewsBloc extends Cubit<NewsState> {
   final NewsRepository repo;
   NewsBloc(this.repo) : super(NewsInitial());
